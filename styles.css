@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+body {
+    background: linear-gradient(to right, red, green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+video{
+    margin-bottom: 12px;
+}
+
+label{
+    font-size: 42px;
+    font-family: calibri;
+}
+
+input[type="range"] {
+    accent-color: rgb(255, 68, 0);
+    margin-left: 12px;
+    width: 160px;
+}
+
+.btn{
+    width: 180px;
+    height: 42px;
+    display: block;
+    margin: 0 auto;
+    margin-top:12px;
+    border: none;
+    outline: none;
+    color: #ffff;
+    font-size: 22px;
+    background: linear-gradient(to right, rgb(0, 255, 55), rgb(0, 128, 128));
+    transition: 0.4s;
+    border-radius: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
